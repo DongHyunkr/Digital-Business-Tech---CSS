@@ -16,3 +16,16 @@
     color:black;
     text-decoration: none;
 }
+#grid a:link{
+    color:black;
+    text-decoration: none;
+}
+#grid a:visited{
+    color:gray;
+}
+#grid a:hover{
+    color:pink;
+}
+#grid a:active{
+    color:red;
+}
