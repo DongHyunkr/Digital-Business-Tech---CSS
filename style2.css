@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#head h2{
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding:20px;
+    margin:0;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 260px 1fr;
+}
+#grid a:link{
+    color:black;
+    text-decoration: none;
+}
+#grid a:visited{
+    color:gray;
+}
+#grid a:hover{
+    color:pink;
+}
+#grid a:active{
+    color:red;
+}
+#grid #article{
+    padding-left:25px;
+}
+#article{
+    border-left:1px solid gray;
+}
+@media(max-width:800px){
+    #grid{
+    display:block;
+    }
+    ol{
+    border-right:none;
+    }
+    h1{ 
+      border-bottom:none;
+    }
+  }

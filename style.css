@@ -1,0 +1,18 @@
+#introduce body{
+    margin:0;
+}
+#introduce a{
+    color:black;
+    text-decoration: none;
+}
+#introduce h1{
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding:20px;
+    margin:0;
+}
+#grid a{
+    color:black;
+    text-decoration: none;
+}
